@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Playfair";
+  src: url("../src/fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Medieval";
+  src: url("../src/fonts/MedievalSharp-Regular.ttf");
+}
+@font-face {
+  font-family: "Lora";
+  src: url("../src/fonts/Lora-VariableFont_wght.ttf");
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: block;
+  justify-content: center;
+  text-align: justify;
+  margin: auto 50px;
+  background-color: rgba(0, 58, 5, 0.938);
+  text-shadow: 0.5px 0.7px 1px rgba(19, 19, 19, 0.952);
+}
+
+.titleContent {
+  margin: auto 0;
+  padding: 25px;
+  transition: 1s ease-in-out;
+  color: rgba(255, 216, 193, 0.979);
+  font-family: "Playfair", serif;
+}
+
+.content-image-rat {
+  display: block;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.content-image-rat .textAnime {
+  color: rgba(12, 0, 68, 0.952);
+  font-family: "Medieval", arial;
+}
+.content-image-rat li {
+  color: rgba(255, 0, 64, 0.993);
+}/*# sourceMappingURL=index.css.map */

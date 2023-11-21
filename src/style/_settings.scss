@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Playfair";
+    src: url("../src/fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Medieval";
+    src: url("../src/fonts/MedievalSharp-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lora";
+    src: url("../src/fonts/Lora-VariableFont_wght.ttf");
+}
+
+$font1: "Playfair", serif;
+$font2: "Medieval", arial;
+$font3: "Lora", "cursive";
+$black: rgba(19, 19, 19, 0.952);
+$darkBlue: rgba(12, 0, 68, 0.952);
+$fushia: rgba(255, 0, 64, 0.993);
+$creme: rgba(255, 216, 193, 0.979);
+$green: rgba(0, 58, 5, 0.938);
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: block;
+    justify-content: center;
+    text-align: justify;
+    margin: auto 50px;
+    background-color: $green;
+    text-shadow: 0.5px 0.7px 1px $black;
+}
